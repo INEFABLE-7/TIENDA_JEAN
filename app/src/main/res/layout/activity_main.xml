@@ -400,9 +400,11 @@
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/btn_1" />
 
                     <TextView
@@ -423,9 +425,10 @@
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/btn_2" />
 
@@ -434,7 +437,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="Explorar"
+                        android:text="Favoritos"
                         android:textAlignment="center"
                         android:textColor="#959595" />
                 </LinearLayout>
@@ -447,9 +450,11 @@
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/btn_3" />
 
                     <TextView
@@ -457,7 +462,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="Explorar"
+                        android:text="comprar car"
                         android:textAlignment="center"
                         android:textColor="#959595" />
                 </LinearLayout>
@@ -470,9 +475,11 @@
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="4dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/btn_4" />
 
                     <TextView
@@ -480,7 +487,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="Explorar"
+                        android:text="Perfil"
                         android:textAlignment="center"
                         android:textColor="#959595" />
                 </LinearLayout>
